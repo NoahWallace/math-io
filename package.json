@@ -1,0 +1,22 @@
+{
+  "name": "math-io",
+  "version": "0.0.1",
+  "description": "Math Library for easy computations of geometric shapes ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "math",
+    "geometry",
+    "convertions"
+  ],
+  "author": "Noah Wallace",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.39",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
