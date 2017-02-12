@@ -1,4 +1,10 @@
+import {Utils} from "./Utils/utils";
+import {degree, radians} from "./Conversion"
+
 export class MathIO{
-  public squared(number:number){return Math.pow(number,2)}
-  public cubed(number:number){return Math.pow(number,3)}
+  utils=Utils;
+  conversion={
+    degree:degree,
+    radians:radians
+  }
 }
